@@ -1,3 +1,3 @@
-notas=1,8,10
-media=(notas[0]+notas[1]+notas[2])/3
+notas1,notas2,notas3=int(input("nota 1: ")),int(input("nota 2: ")),int(input("nota 3: "))
+media=(notas1+notas2+notas3)/3
 print(media)
